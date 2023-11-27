@@ -27,3 +27,21 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
+
+#experiencia {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.experiencia-item {
+  margin-bottom: 20px;
+}
+
+.experiencia-item h3 {
+  color: #007bff;
+}
+
+.experiencia-item p {
+  margin: 5px 0;
+}

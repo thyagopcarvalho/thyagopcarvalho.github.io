@@ -9,8 +9,12 @@ function carregarConteudo(secao) {
 }
 
 document.getElementById('load-about-me').addEventListener('click', function(event) {
-  console.log("%s", new Error().stack);
   event.preventDefault();
   carregarConteudo('about-me');
+});
+
+document.getElementById('load-experience').addEventListener('click', function(event) {
+  event.preventDefault();
+  carregarConteudo('experience');
 });
 
